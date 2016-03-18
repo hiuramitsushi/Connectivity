@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connectivity / Telematics Project </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/application.css">
+  </head>
+  <body>
+   
+
+    <div class="grid">
+      <header class="grid__col--12 panel--padded--centered" role="banner"> 
+        <a class="site-logo" href="/">
+          <b class="srt">Sub-Frame Google Map </b>
+        </a>
+        <nav class="navbar" role="navigation">
+          <span class="icn-toggle">
+            <b class="srt">Table Information</b>
+          </span>
+          <ul class="nav">
+            <li class="nav__item"><a href="../project/users/user_profile.html">User profile</a></li>
+            <li class="nav__item"><a href="#">Configuration screen</a></li>
+          </ul>
+        </nav>     
+      </header> 
+    </div>
+    
+    <div class="grid">
+      <div class="grid__col--12">
+        <img class="img--hero" src="img/hd-logo.png" alt="Fuso">
+      </div>
+    </div>
+    
+    <div class="grid">
+      <div class="centered grid__col--8">
+        <h1 class="headline-primary--grouped">FUSO Connectivity/Telematics Project</h1>
+        <h2 class="headline-secondary--grouped">Requirements :</h2>
+              </div>
+    </div>
+  
+    <h4 class="grid">Tiles</h4>
+    
+    <div class="grid">
+      <div class="grid__col--12">
+        <a class="btn--default" href="https://www.google.co.jp/maps/dir/Japan,+%E3%80%92210-0023+Kanagawa+Prefecture,+Kawasaki-shi,+Kawasaki-kuKawasaki+Ward,+Ogawacho,+13%E2%88%921+%E6%98%8E%E7%9F%B3+%E3%83%93%E3%83%AB+2F+Annulaire/Mitsubishi+Fuso+Truck+and+Bus+Corporation,+Kawasaki,+Pr%C3%A4fektur+Kanagawa/@35.5365682,139.6509873,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x601860a3aa5242c3:0xf9f3b7c25e650e85!2m2!1d139.698711!2d35.527776!1m5!1m1!1s0x60185fc6537e6fd5:0x77a229e36267e499!2m2!1d139.6734143!2d35.5497672?hl=de">Sub-frame/ Page Google map</a>
+        <a class="btn--default" href="../project/bootstraps/tables.html">Showing Table Vin</a>
+        <a class="btn--default" href="#"> Fuel Usage</a>
+        <button class="btn--default">Shared-Project</button>
+        <button class="btn--default">Fuso extra information</button>
+      </div>
+    </div>
+         
+    
+    
+    <h4 class="grid">Footer</h4>
+    
+    <div class="grid">
+      <footer class="grid__col--12 panel--padded--centered" role="contentinfo">
+        <a class="site-logo" href="http://www.mitsubishi-fuso.com/en/">
+          <b class="srt">Fuso HomePage</b>
+        </a>
+        <p>2016/3/18 Fuso Connectivity-Telematics.</p>
+      </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+      $('#toggle').click(function() {
+        $(this).next('.nav').toggleClass("is-collapsed-mobile");
+      });
+    </script>
+  </body>
+</html>
